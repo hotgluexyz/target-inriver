@@ -1,6 +1,6 @@
 # target-inriver
 
-Singer target for [InRiver](https://www.inriver.com/) using [HotglueSingerSDK](https://github.com/hotgluexyz/HotglueSingerSDK) (`TargetHotglue`). The SDK is pulled from Git in `pyproject.toml` (same source as `target-dualentry`). To use a local checkout instead: `poetry add --editable ../path/to/HotglueSingerSDK`. Streams: **Product**, **ProductItem** (Item entity + `ProductItem` link), **ItemSize** (Size entity + `ItemSize` link, sizes deduped by `externalId` via bookmarks).
+Singer target for [InRiver](https://www.inriver.com/) using [HotglueSingerSDK](https://github.com/hotgluexyz/HotglueSingerSDK) (`TargetHotglue`). The SDK is pulled from Git in `pyproject.toml`. To use a local checkout instead: `poetry add --editable ../path/to/HotglueSingerSDK`. Streams: **Product**, **ProductItem** (Item entity + `ProductItem` link), **ItemSize** (Size entity + `ItemSize` link, sizes deduped by `externalId` via bookmarks).
 
 ## Config
 
